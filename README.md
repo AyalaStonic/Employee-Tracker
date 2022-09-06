@@ -1,21 +1,12 @@
-# MySQL-Employee-Tracker
+# Employee-Tracker
 
-MySQL-Employee-Tracker is an interface command program that make it easy for non-developers to view and interact with information stored in databases. This interface is a good example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL.
-
-
-## User Story
-AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business
-
-## Design
-
-This application follows the database shcema containing three variables:
+Employee Tracker is an interface command program that makes it easy for non-developers to interact with information stored in databases. It is a command line application for managing a company's employees.
 
 
-## About
 
-Application tree structure: The application is user friendly and built to handle large amount of data (ie: what if the company have about 10,000 employees and 1,000+ roles)
+
+
+## About this interface command program
 
 * View All Employees - command that prints all employees in a table. Table contains employee id, employee name, title, department, salary and employee manager.
 
@@ -40,12 +31,14 @@ Application tree structure: The application is user friendly and built to handle
 * npm i mysql - to connect to MySql database
 * npm console.table - to format tables
 
-## Run 
+afterwards tou can run the following code
+
 * node index.js
 
 ## Dependencies
 
-![](./assests/images/210845.png)
+![]<img width="569" alt="Screen Shot 2022-09-05 at 10 51 16 PM" src="https://user-images.githubusercontent.com/106893616/188536960-10132206-8732-489a-a75e-bc14e73d810f.png">
+
 
 ## Built with
 * JavaScript

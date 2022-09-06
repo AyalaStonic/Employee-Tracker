@@ -225,29 +225,29 @@ async function addEmployee() {
         });
     });
 }
-// function addDepartment() { 
+function addDepartment() { 
 
-//     inquirer.prompt([
-//         {
-//           name: "name",
-//           type: "input",
-//           message: "What Department would you like to add?"
-//         }
-//     ]).then(function(res) {
-//         var query = connection.query(
-//             "INSERT INTO department SET ? ",
-//             {
-//               name: res.name
+ inquirer.prompt([
+        {
+         name: "name",
+        type: "input",
+        message: "What Department would you like to add?"
+      }
+   ]).then(function(res) {
+      var query = connection.query(
+       "INSERT INTO department SET ? ",
+          {
+           name: res.name
             
-//             },
-//             function(err) {
-//                 if (err) throw err
-//                 console.table(res);
-//                 startPrompt();
-//             }
-//         )
-//     })
-//   }
+         },
+             function(err) {
+                if (err) throw err
+                console.table(res);
+                startPrompt();
+            }
+        )
+    })
+  }
 function remove(input) {
     const promptQ = {
         yes: "yes",
