@@ -55,10 +55,4 @@ Application tree structure: The application is user friendly and built to handle
 * MySQL
 
 ## Demo
-[Video Showcase](https://youtu.be/PY9Q5xitD4Y)
-
-## Author
-* Alvarez, Isaiah 02/23/2020
-
-## License
-see The MIT License (MIT)
+[Video Showcase]
